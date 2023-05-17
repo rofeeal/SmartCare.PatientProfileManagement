@@ -16,7 +16,7 @@ namespace SmartCare.PatientProfileManagement.Api.Mapping
 
 
             CreateMap<Guid, GetPatientProfileByIdQuery>();
-            CreateMap<IEnumerable<PatientProfile>, List<PatientProfileDto>>();
+            CreateMap<List<PatientProfile>, List<PatientProfileDto>>();
 
         }
     }

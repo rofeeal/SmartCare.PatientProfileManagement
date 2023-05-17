@@ -34,9 +34,12 @@ builder.Services.AddSingleton<IMongoDatabaseSettings>(provider =>
     provider.GetRequiredService<IOptions<MongoDatabaseSettings>>().Value);
 
 builder.Services.AddTransient<IRequestHandler<CreatePatientProfileCommand, ResultWithData<Guid>>, CreatePatientProfileCommandHandler>();
+builder.Services.AddTransient<IRequestHandler<GetPatientsProfilesQuery, ResultWithData<List<PatientProfile>>>, GetPatientsProfilesQueryHandler>();
 builder.Services.AddTransient<INotificationHandler<PatientProfileCreatedEvent>, PatientProfileRepository>();
 
-builder.Services.AddScoped<PatientProfileQueryRepository>();
+builder.Services.AddTransient<PatientProfileQueryRepository>();
+
+builder.Services.AddScoped<IPatientProfileQueryRepository, PatientProfileQueryRepository>();
 builder.Services.AddScoped<IPatientProfileCommandRepository, EventStoreRepository>();
 
 builder.Services.AddControllers();
