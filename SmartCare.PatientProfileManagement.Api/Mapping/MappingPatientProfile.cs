@@ -10,13 +10,14 @@ namespace SmartCare.PatientProfileManagement.Api.Mapping
     {
         public MappingPatientProfile()
         {
-            CreateMap<PatientProfileDto, CreatePatientProfileCommand>();
-            CreateMap<PatientProfileDto, UpdatePatientProfileCommand>();
+            CreateMap<PatientProfileCommandDto, CreatePatientProfileCommand>();
+            CreateMap<PatientProfileCommandDto, UpdatePatientProfileCommand>();
             CreateMap<Guid, DeletePatientProfileCommand>();
 
 
             CreateMap<Guid, GetPatientProfileByIdQuery>();
-            CreateMap<List<PatientProfile>, List<PatientProfileDto>>();
+            CreateMap<List<PatientProfile>, List<PatientProfileQueryDto>>();
+            CreateMap<PatientProfile, PatientProfileQueryDto>();
 
         }
     }

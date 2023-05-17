@@ -5,6 +5,7 @@ using SmartCare.PatientProfileManagement.Api.Dtos;
 using SmartCare.PatientProfileManagement.Application.Commands;
 using SmartCare.PatientProfileManagement.Application.Handlers.Queries;
 using SmartCare.PatientProfileManagement.Application.Queries;
+using SmartCare.PatientProfileManagement.Domain.Entites;
 
 namespace SmartCare.PatientProfileManagement.Api.Controllers
 {
@@ -22,14 +23,14 @@ namespace SmartCare.PatientProfileManagement.Api.Controllers
         }
 
         [HttpGet("GetPatient/{id}")]
-        public async Task<ActionResult<PatientProfileDto>> GetPatientById(Guid id)
+        public async Task<IActionResult> GetPatientById(Guid id)
         {
             var query = _mapper.Map<GetPatientProfileByIdQuery>(id);
             var result = await _mediator.Send(query);
 
             if (result.Succeeded)
             {
-                return Ok(_mapper.Map<PatientProfileDto>(result.Data));
+                return Ok(_mapper.Map<PatientProfileQueryDto>(result.Data));
             }
             else
             {
@@ -38,7 +39,7 @@ namespace SmartCare.PatientProfileManagement.Api.Controllers
         }
 
         [HttpGet("GetAllPatients")]
-        public async Task<ActionResult<List<PatientProfileDto>>> GetPatients()
+        public async Task<IActionResult> GetPatients()
         {
             var query = new GetPatientsProfilesQuery();
 
@@ -46,7 +47,9 @@ namespace SmartCare.PatientProfileManagement.Api.Controllers
 
             if (result.Succeeded)
             {
-                return Ok(_mapper.Map<List<PatientProfileDto>>(result.Data));
+                var patientProfiles = result.Data;
+                return Ok(_mapper.Map<List<PatientProfileQueryDto>>(patientProfiles));
+                //return Ok(result.Data);
             }
             else
             {
@@ -55,7 +58,7 @@ namespace SmartCare.PatientProfileManagement.Api.Controllers
         }
 
         [HttpPost("Add")]
-        public async Task<IActionResult> CreatePatient([FromBody] PatientProfileDto patientDto)
+        public async Task<IActionResult> CreatePatient([FromBody] PatientProfileCommandDto patientDto)
         {
             var command = _mapper.Map<CreatePatientProfileCommand>(patientDto);
 
@@ -73,7 +76,7 @@ namespace SmartCare.PatientProfileManagement.Api.Controllers
         }
 
         [HttpPut("Update/{id}")]
-        public async Task<IActionResult> UpdatePatient(Guid id, [FromBody] PatientProfileDto patientDto)
+        public async Task<IActionResult> UpdatePatient(Guid id, [FromBody] PatientProfileCommandDto patientDto)
         {
 
             var command = _mapper.Map<UpdatePatientProfileCommand>(patientDto);

@@ -2,7 +2,7 @@
 
 namespace SmartCare.PatientProfileManagement.Api.Dtos
 {
-    public class PatientProfileDto
+    public class PatientProfileCommandDto
     {
         public BasicInformation BasicInformation { get; set; }
         public ContactInformation ContactInfo { get; set; }
