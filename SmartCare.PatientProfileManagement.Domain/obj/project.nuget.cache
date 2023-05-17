@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ze7ChK+obfWd2hYpzwBx6V6oLjcKwYPtxEeeSj7Ml5FGCjHjDGYUAvl8a3yIPjoHBnmorXPUshyNEtscQCgPcg==",
+  "success": true,
+  "projectFilePath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Domain\\SmartCare.PatientProfileManagement.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rofee\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\rofee\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\rofee\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
+    "C:\\Users\\rofee\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

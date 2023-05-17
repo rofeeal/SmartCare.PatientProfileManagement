@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "86aGvNwfXcnQQIrTuDZZ2xtOm9olOexK7E4DSt/m82kE0fSTnXV3ggbaD6ABvKMhO1xhuwJwxKI6oDqCo9xYEg==",
+  "success": true,
+  "projectFilePath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Shared\\SmartCare.PatientProfileManagement.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rofee\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

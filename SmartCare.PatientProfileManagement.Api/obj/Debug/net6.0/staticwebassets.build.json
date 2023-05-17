@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cbs/HVVGxEWwkvI42kbw11UNLhbCF2zqAZ66rd61rIA=",
+  "Source": "SmartCare.PatientProfileManagement.Api",
+  "BasePath": "_content/SmartCare.PatientProfileManagement.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

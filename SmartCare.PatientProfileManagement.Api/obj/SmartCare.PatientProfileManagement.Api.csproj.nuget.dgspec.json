@@ -1,0 +1,406 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Api\\SmartCare.PatientProfileManagement.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Api\\SmartCare.PatientProfileManagement.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Api\\SmartCare.PatientProfileManagement.Api.csproj",
+        "projectName": "SmartCare.PatientProfileManagement.Api",
+        "projectPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Api\\SmartCare.PatientProfileManagement.Api.csproj",
+        "packagesPath": "C:\\Users\\rofee\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rofee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Application\\SmartCare.PatientProfileManagement.Application.csproj": {
+                "projectPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Application\\SmartCare.PatientProfileManagement.Application.csproj"
+              },
+              "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Infrastructure\\SmartCare.PatientProfileManagement.Infrastructure.csproj": {
+                "projectPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Infrastructure\\SmartCare.PatientProfileManagement.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Application\\SmartCare.PatientProfileManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Application\\SmartCare.PatientProfileManagement.Application.csproj",
+        "projectName": "SmartCare.PatientProfileManagement.Application",
+        "projectPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Application\\SmartCare.PatientProfileManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\rofee\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rofee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Domain\\SmartCare.PatientProfileManagement.Domain.csproj": {
+                "projectPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Domain\\SmartCare.PatientProfileManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Domain\\SmartCare.PatientProfileManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Domain\\SmartCare.PatientProfileManagement.Domain.csproj",
+        "projectName": "SmartCare.PatientProfileManagement.Domain",
+        "projectPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Domain\\SmartCare.PatientProfileManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\rofee\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rofee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Shared\\SmartCare.PatientProfileManagement.Shared.csproj": {
+                "projectPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Shared\\SmartCare.PatientProfileManagement.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Infrastructure\\SmartCare.PatientProfileManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Infrastructure\\SmartCare.PatientProfileManagement.Infrastructure.csproj",
+        "projectName": "SmartCare.PatientProfileManagement.Infrastructure",
+        "projectPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Infrastructure\\SmartCare.PatientProfileManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rofee\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rofee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Domain\\SmartCare.PatientProfileManagement.Domain.csproj": {
+                "projectPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Domain\\SmartCare.PatientProfileManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Shared\\SmartCare.PatientProfileManagement.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Shared\\SmartCare.PatientProfileManagement.Shared.csproj",
+        "projectName": "SmartCare.PatientProfileManagement.Shared",
+        "projectPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Shared\\SmartCare.PatientProfileManagement.Shared.csproj",
+        "packagesPath": "C:\\Users\\rofee\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP Projects\\SmartCare\\SmartCare.PatientProfileManagement\\SmartCare.PatientProfileManagement.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rofee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

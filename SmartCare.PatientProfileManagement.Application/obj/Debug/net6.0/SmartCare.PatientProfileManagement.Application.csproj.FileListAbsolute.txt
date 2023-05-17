@@ -1,0 +1,17 @@
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\bin\Debug\net6.0\SmartCare.PatientProfileManagement.Application.deps.json
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\bin\Debug\net6.0\SmartCare.PatientProfileManagement.Application.dll
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\bin\Debug\net6.0\SmartCare.PatientProfileManagement.Application.pdb
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\bin\Debug\net6.0\SmartCare.PatientProfileManagement.Domain.dll
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\bin\Debug\net6.0\SmartCare.PatientProfileManagement.Shared.dll
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\bin\Debug\net6.0\SmartCare.PatientProfileManagement.Domain.pdb
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\bin\Debug\net6.0\SmartCare.PatientProfileManagement.Shared.pdb
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\obj\Debug\net6.0\SmartCare.PatientProfileManagement.Application.csproj.AssemblyReference.cache
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\obj\Debug\net6.0\SmartCare.PatientProfileManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\obj\Debug\net6.0\SmartCare.PatientProfileManagement.Application.AssemblyInfoInputs.cache
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\obj\Debug\net6.0\SmartCare.PatientProfileManagement.Application.AssemblyInfo.cs
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\obj\Debug\net6.0\SmartCare.PatientProfileManagement.Application.csproj.CoreCompileInputs.cache
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\obj\Debug\net6.0\SmartCare.PatientProfileManagement.Application.csproj.CopyComplete
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\obj\Debug\net6.0\SmartCare.PatientProfileManagement.Application.dll
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\obj\Debug\net6.0\refint\SmartCare.PatientProfileManagement.Application.dll
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\obj\Debug\net6.0\SmartCare.PatientProfileManagement.Application.pdb
+D:\ASP Projects\SmartCare\SmartCare.PatientProfileManagement\SmartCare.PatientProfileManagement.Application\obj\Debug\net6.0\ref\SmartCare.PatientProfileManagement.Application.dll
